@@ -15,7 +15,7 @@ genai.configure(api_key="AIzaSyAL9XtlU6DQMHDiyI_zcMclJBzZ0VT8AUs")
 model = genai.GenerativeModel("gemini-2.0-flash")
 
 user_name = None
-WEATHER_API_KEY = "6a7cbed363b4f4dde4e70263ab8376c5"  # Replace with your key
+WEATHER_API_KEY =  # Replace with your key
 
 def get_weather(city=None):
     if not city:
